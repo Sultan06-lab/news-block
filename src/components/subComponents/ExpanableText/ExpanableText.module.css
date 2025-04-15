@@ -1,0 +1,21 @@
+.mb {
+    margin-bottom: 20px;
+}
+
+.keyword {
+    color: var(--color-text-primary);
+    padding: 0 4px;
+    border-radius: 4px;
+    background-color: var(--color-keyword-bg);
+}
+
+.show_btn {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 16px;
+    display: flex;
+    align-items: flex-end;
+}

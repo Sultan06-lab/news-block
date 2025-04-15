@@ -1,0 +1,50 @@
+.container {
+    background: var(--color-bg-body);
+    color: var(--color-text-primary);
+    * {
+        color: inherit;
+    }
+}
+
+.container > span {
+    color: var(--primary-color);
+
+}
+
+.check_btn {
+    border: 2px solid var(--color-border-neutral);
+    border-radius: 0;
+    width: 30px;
+    height: 24px;   
+}
+
+.info_btn {
+    border: 2px solid var(--color-border-neutral);
+    border-radius: 0;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+ 
+.source_btn {
+    display: block !important;
+    margin-bottom: 30px;
+}
+
+.view_btn {
+    padding: 20px;
+    width: 100%;
+}
+
+.dark_outlined_btn {
+    background-color: var(--color-bg-btn);
+    border: 2px solid var(--color-border-neutral);
+    transition: background-color 0.3s ease;
+    &:hover {
+        background-color: var(--color-bg-card-hover) !important;
+        border-color: var(--color-border-neutral) !important;
+        color: var(--color-text-primary) !important;
+    }
+}

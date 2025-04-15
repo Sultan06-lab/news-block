@@ -1,0 +1,21 @@
+#root {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: var(--color-bg-body);
+  color: var(--color-text-primary);
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: var(--color-link) !important;
+  text-decoration: underline;
+}
+
+.main {
+  max-width: 1240px;
+} 
+
+strong {
+  font-weight: bolder !important;
+}

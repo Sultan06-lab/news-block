@@ -1,0 +1,21 @@
+.card {
+    border-color: var(--color-link);
+    margin-bottom: 20px;
+    background: var(--color-bg);
+    color: var(--primary-color);
+    * {
+        color: inherit;
+    }
+}
+
+.info_btn {
+    border: 2px solid var(--color-border-neutral);
+    border-radius: 0;
+}
+
+.check_btn {
+    border: 2px solid var(--color-border-neutral);
+    border-radius: 0;
+    width: 32px;
+    height: 24px;   
+}

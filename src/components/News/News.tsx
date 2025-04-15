@@ -109,7 +109,7 @@ export const News: FC<NewsProps> = ({ item }) => {
         variant="solid"
         className={`${styles.source_btn} ${styles.dark_outlined_btn}`}
       >
-        <Text>Original Source</Text>
+        <Text className={styles.source_text}>Original Source</Text>
       </Button>
       <Flex justify="space-between" className={styles.mb}>
         <Space size={5}>

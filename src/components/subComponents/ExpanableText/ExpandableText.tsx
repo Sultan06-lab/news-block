@@ -24,6 +24,9 @@ export const ExpandableText: FC<ExpandableTextProps> = (props) => {
   const textParts = findKeywordsInText(displayText, keyWords);
   const shouldShowButton = text.length > maxLength;
 
+  const buttonText = expanded ? "Show less" : "Show more";
+  const Icon = expanded ? UpOutlined : DownOutlined;
+
   return (
     <Flex vertical align="flex-start" gap={1} className={styles.mb}>
       <Text>
@@ -44,12 +47,8 @@ export const ExpandableText: FC<ExpandableTextProps> = (props) => {
           onClick={() => setExpanded(!expanded)}
           className={styles.show_btn}
         >
-          {expanded ? "Show less" : "Show more"}
-          {expanded ? (
-            <UpOutlined className={styles.icon} />
-          ) : (
-            <DownOutlined className={styles.icon} />
-          )}
+          {buttonText}
+          <Icon className={styles.icon} />
         </Button>
       )}
     </Flex>

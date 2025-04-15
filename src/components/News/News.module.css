@@ -33,6 +33,10 @@
     margin-bottom: 30px;
 }
 
+.source_text {
+    color: var(--color-link);
+}
+
 .view_btn {
     padding: 20px;
     width: 100%;

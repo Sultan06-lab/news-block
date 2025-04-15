@@ -1,4 +1,6 @@
 .tag {
     margin-bottom: 20px;
     background: var(--bg-color) !important;
+    border-color: var(--color-border-neutral) !important;
+    border-radius: 12px;
 }
